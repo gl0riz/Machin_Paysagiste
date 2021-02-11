@@ -1,0 +1,78 @@
+/* Navbar */
+.nav-scroller {
+  z-index: 2;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap:wrap;
+  margin-top: -1px;
+  color: rgba(255, 255, 255, .75);
+  background-color:rgb(238, 245, 249);
+  text-align: center;}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+
+body {
+  background-color:rgb(238, 245, 249);
+  text-align:center;
+}
+
+h1 {
+margin:20px 0 20px 0px;
+padding:0px;
+}
+
+#preFooter {
+  margin-top:25px;
+  height:145px;
+  width:100%;
+  background: transparent url(../images/herbeBas.png) repeat-x;
+}
+
+footer {
+  color:white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align:left;
+}
+footer p {
+    text-align:left;
+}
+
+/* Le code précédent doit être mis sur chaque page, le reste c'est comme chacun veut. */
+
+/*Accueil*/
+.card {
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Tristan et Nicolas*/
+.imgPart {
+    
+    background-color: white;
+    
+}
+.img{
+    width:900px;
+    height:506px;
+    
+}
